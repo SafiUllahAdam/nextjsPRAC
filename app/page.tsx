@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from './page.module.css'
+import Link from 'next/link'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,10 +19,11 @@ export default function Home() {
           color:"green",
           background:"pink",
           fontSize:"22px", 
+          animation:"ease-in-out"
         }}
         >
-         WELCOME TO PIAIC
-         </p>
+         WELCOME TO PIAIC</p>
+         
         <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
